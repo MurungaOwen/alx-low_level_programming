@@ -3,3 +3,4 @@ to the preprocessing stage use -E
 -C makes the process occur upto compilation
 -S generates the assemb;ly code
 printf is used to display output
+masm command for intel

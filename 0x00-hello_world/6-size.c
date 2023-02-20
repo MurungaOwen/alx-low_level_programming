@@ -5,11 +5,12 @@
  */
 int main(void)
 {
-        int a;
-        char b;
-        long int c;
-        long long int d;
-        float e;
+	int a;
+	char b;
+	long int c;
+	long long int d;
+	float e;
+
 printf("size of a char: %lu byte(s)", (unsigned long)sizeof(a));
 printf("size of an int: %lu byte(s)", (unsigned long)sizeof(b));
 printf("size of a long int: %lu byte(s)", (unsigned long)sizeof(c));
