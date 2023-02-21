@@ -5,16 +5,16 @@
  */
 int main(void)
 {
-	int A=65;
-	int a=97;
+	int A = 65;
+	int a = 97;
 
-	while(a <= 122)
+	while (a <= 122)
 	{
 		putchar(a);
 		a++;
 	}
 	putchar('\n');
-	while(A <= 90)
+	while (A <= 90)
 	{
 		putchar(A);
 		A++;
