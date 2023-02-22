@@ -10,7 +10,7 @@ int main(void)
 	while (a <= 97)
 	{
 		putchar(a);
-		a++;
+		a--;
 	}
 	putchar('\n');
 	return (0);
