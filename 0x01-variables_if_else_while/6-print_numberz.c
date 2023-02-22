@@ -1,6 +1,6 @@
 #include<stdio.h>
 /**
- * main-function that displays single base 10 integers
+ * main-prints all single digits
  * Return:0(Success)
  */
 int main(void)
