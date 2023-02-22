@@ -1,21 +1,21 @@
-#include <stdio.h>
+#include<stdio.h>
 /**
- *main - afunction that prints alphabets with exception 
- *Return: 0(Success)
-*/
+ * main-a function that prints with exception
+ * Return:0(Success)
+ */
 int main(void)
 {
-	int a = 97;
+	int n = 97;
 
-	while (a <= 122)
+	while (n <= 122)
 	{
-		if (a == 101 || a == 113)
+		if (n == 101 || n == 113)
 		{
-			a++;
+			n++;
 			continue;
 		}
-		putchar(a);
-		a++;
+		putchar(n);
+		n++;
 	}
 	putchar('\n');
 	return (0);
