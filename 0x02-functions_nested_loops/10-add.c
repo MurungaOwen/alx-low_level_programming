@@ -9,6 +9,6 @@ int add(int i, int j)
 {
 	int k;
 
-	k = i + j;
-	_putchar(k + 48);
+	k = (i + j);
+	_putchar(k);
 }
