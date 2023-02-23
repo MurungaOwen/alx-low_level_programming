@@ -2,7 +2,8 @@
 /**
  * _islower-function that checks for lowercase letters
  * Return:1 for lowercase the rest are zero
- */
+ *@c:character in ascii code
+*/
 int _islower(int c)
 {
 	if (c >= 97 && c <= 122)
