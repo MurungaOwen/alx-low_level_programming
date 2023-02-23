@@ -11,5 +11,4 @@ int add(int i, int j)
 
 	k = i + j;
 	_putchar(k + 48);
-	_putchar('\n');
 }
