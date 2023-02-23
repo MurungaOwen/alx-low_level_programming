@@ -1,3 +1,4 @@
+#include<stdio.h>
 #include "main.h"
 /**
  * print_to_98-prints all numbers upto 98
@@ -6,12 +7,11 @@
  */
 void print_to_98(int n)
 {
-	while (n <= 98)
+	int i;
+	for (i == n; i <= 98; i++)
 	{
-		_putchar(n + 48);
-		if (n == 98)
-			break;
-		_putchar(',');
-		_putchar(' ');
-	}
+		if(i == 98)
+			printf("%d", i);
+		printf("%d", i);
+	}	
 }
