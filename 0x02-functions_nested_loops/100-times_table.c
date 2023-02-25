@@ -4,7 +4,7 @@
  *@n:upto
  *Return:no return value
 */
-print_times_table(int n)
+void print_times_table(int n)
 {
 	int i, j, k;
 
